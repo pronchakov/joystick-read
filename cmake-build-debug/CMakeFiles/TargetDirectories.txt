@@ -1,0 +1,9 @@
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/joystick-read/CMakeFiles/edit_cache.dir
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/joystick-read/CMakeFiles/rebuild_cache.dir
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/joystick-read/CMakeFiles/upload.dir
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/joystick-read/CMakeFiles/joystick-read-upload.dir
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/joystick-read/CMakeFiles/joystick-read-size.dir
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/joystick-read/CMakeFiles/joystick-read.dir
+/home/apronchakov/src/plane/joystick-read/cmake-build-debug/joystick-read/CMakeFiles/uno_CORE.dir

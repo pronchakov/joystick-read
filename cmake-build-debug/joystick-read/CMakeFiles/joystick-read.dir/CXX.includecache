@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/apronchakov/src/plane/joystick-read/joystick-read/example.cpp
+Arduino.h
+/home/apronchakov/src/plane/joystick-read/joystick-read/Arduino.h
+

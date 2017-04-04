@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-448680629268dd2a0635b66635b50048 joystick-read/CMakeFiles/joystick-read-size
-5c4908b78715ccf22d41273453e0b95e joystick-read/CMakeFiles/joystick-read-upload

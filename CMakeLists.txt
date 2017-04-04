@@ -28,4 +28,4 @@ print_programmer_list()
 link_directories(${ARDUINO_SDK}/libraries)
 
 # add the project directory into build
-add_subdirectory(joystick-read)
+add_subdirectory(read)

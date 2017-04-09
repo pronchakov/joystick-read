@@ -1,21 +1,28 @@
 #include "Arduino.h"
-#include "hid.h"
-#include "hiduniversal.h"
-#include "usbhub.h"
+#include <usbhid.h>
+#include <hiduniversal.h>
+#include <usbhub.h>
+
+// Satisfy IDE, which only needs to see the include statment in the ino.
+#ifdef dobogusinclude
+#include <spi4teensy3.h>
+#include <SPI.h>
+#endif
 
 #include "hidjoystickrptparser.h"
 
 USB Usb;
 USBHub Hub(&Usb);
 HIDUniversal Hid(&Usb);
-
 JoystickEvents JoyEvents;
 JoystickReportParser Joy(&JoyEvents);
 
 void setup() {
     Serial.begin(115200);
-    while (!Serial);
-    Serial.println("AAAAAAAAAAAAAAAAAA");
+#if !defined(__MIPSEL__)
+    while (!Serial); // Wait for serial port to connect - used on Leonardo, Teensy and other boards with built-in USB CDC serial connection
+#endif
+    Serial.println("Start");
 
     if (Usb.Init() == -1)
         Serial.println("OSC did not start.");
@@ -29,3 +36,4 @@ void setup() {
 void loop() {
     Usb.Task();
 }
+
